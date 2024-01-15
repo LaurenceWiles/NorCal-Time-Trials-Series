@@ -74,6 +74,7 @@ p {
     width: 100%;
     height: calc(100vh - 100px);
     background: linear-gradient(#ffffff, #d3d3d3);
+  
 }
 .info_div {
     color: #3c4142;
