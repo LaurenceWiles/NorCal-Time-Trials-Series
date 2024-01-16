@@ -1,0 +1,35 @@
+*{
+    font-family: Helvetica, sans-serif;
+    color: #3c4142;
+}
+
+body {
+    margin: 0 50px 0 50px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ol {
+    padding-bottom: 5px;
+}
+
+li {
+    padding-top: 5px;
+}
+
+.level5, .level6, .level7, .level8, .level9 {
+    margin-left: -40px;
+}
+table, th, td {
+    border: 1px solid #3c4142;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 20px 0 15px 0;
+}
+li:first-child {
+    padding-top: 10px;
+}
