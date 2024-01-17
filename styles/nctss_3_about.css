@@ -44,6 +44,10 @@ a {
     text-decoration: none;
 }
 
+.safety_link {
+    color: #3c4142;
+}
+
 .nav_list {
     margin-right: 10px;
 }

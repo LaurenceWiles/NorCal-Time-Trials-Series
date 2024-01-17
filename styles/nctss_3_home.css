@@ -68,6 +68,11 @@ p {
     padding-top: 15px;
 }
 
+.events_info_p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .home_div {
     display: flex;
     padding-top: 100px;
