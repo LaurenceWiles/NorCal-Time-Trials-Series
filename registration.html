@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="./styles/registration.css" />
+</head>
+<body>
+    <div class="form_div">
+    <h1>Registration Form</h1>
+    <form action="show_data.html" method="GET">
+        <div class="div1">
+    <label for="first_name">First Name<br><input class="text_input" type="text" name="first_name"></label><br>
+    <label for="last_name">Last Name<br><input class="text_input" type="text" name="last_name"></label><br>
+    <label for="street_address">Street Address<br><input class="text_input" type ="text" name="street_address"></label><br>
+    <label for="city">City<br><input class="text_input" type="text" name="city"></label><br>
+    <label for="zip_code">Zip Code<br><input class="text_input" type="text" name="zip_code"></label><br>
+    <label for="age">Age<br><input class="text_input" type="text" name="age"></label><br>
+    <label for="contact_phone">Contact Phone<br><input class="text_input" type="text" name="contact_phone"></label><br>
+    <label for="contact_email">Contact Email<br><input class="text_input" type="text" name="contact_email"></label><br>
+        </div>
+    <label for="gender">Gender</label><br>
+    <label for="female"><input class="radio" type="radio" name="female" value="female">Female</label>
+    <label for="male"><input class="radioc" type="radio" name="male" value="male">Male</label>
+        <br>
+    <label for="motorsports_organization_membership">Motor Sports Organization Membership?<br>
+        <select name="motorsports_organization_membership" id="dropdown">
+            <option value="">Select One</option>
+            <option value="sports_car_club_of_america">Sports Car Club Of America (SCCA)</option>
+            <option value="national_autosport_association">National Autosport Association (NASSA)</option>
+            <option value="none">None</option>
+        </select>
+    </label><br>
+    <label for="previous_competitive_experience">Previous Competitive Experience<br>
+        <select name="previous_competitive_experience" id="dropdown">
+            <option value="">Select One</option>
+            <option value="none">None</option>
+            <option value="hpde/track_days">HPDE/Track Days</option>
+            <option value="autocross">Autocross</option>
+            <option value="one_year">One Year</option>
+            <option value="two_years">Two Years</option>
+            <option value="over_two_years">Over two years</option>
+        </select>
+    </label><br>
+    <label for="racing_licence">Racing Licence<br>
+        <select name="racing_licence" id="dropdown">
+            <option value="">Select One</option>
+            <option value="none">None</option>
+            <option value="scca">SCCA</option>
+            <option value=nasa">NASA</option>
+            <option value="fia">FIA</option>
+        </select>
+    </label><br>
+    <p>I agree that I will abide by all the rules of the NorCal Time Trial Series (NCTTS). I recognize that Motorsports are inherently dangerous. I hereby release, discharge, and/or otherwise indemnify NCTTS, their employees and associated personnel and volunteers, including the facilities used for events, against any claim by or on behalf of the registrant as a result of my participation in the series. </p>
+    <p>By entering my name below, I hereby agree and authorize the above.</p>
+    <textarea name="digital_signature" id="" cols="30" rows="3" for="digital_signature" placeholder="Enter you name and the date here"></textarea><br>
+    <input class="submit" type="submit">
+    </form>
+    </div>
+</body>
+</html>
