@@ -18,3 +18,7 @@ table {
 th {
     text-align: left;
 }
+
+iframe {
+    padding-bottom: 20px;
+}
