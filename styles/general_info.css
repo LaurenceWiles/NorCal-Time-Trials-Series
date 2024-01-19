@@ -1,14 +1,16 @@
 *{
     font-family: Helvetica, sans-serif;
-    color: #3c4142;
+    
 }
 
 .info_div {
     margin: 0 25% 0 25%;
+    color: #3c4142;
 }
 
 h1, h2 {
     text-align: center;
+    color: #3c4142;
 }
 
 table {
