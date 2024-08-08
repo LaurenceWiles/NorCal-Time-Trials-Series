@@ -17,7 +17,7 @@
 ## Installation
 1. **Clone the repository**
 ```bash
-git clone https://github.com/LaurenceWiles/norcal-time-trials.git
+git clone https://github.com/LaurenceWiles/NorCal-Time-Trials-Series.git
 ```
 2. **Navigate to project directory**
 ```bash
